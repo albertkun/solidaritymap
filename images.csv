@@ -1,0 +1,237 @@
+latitude,longitude,name,location,start_date,status,category,police_violence_status,number_of_arrests,image_url
+-30.82974489,-59.44707553,Monash University,"Melbourne,",<NA>,<NA>,Encampment,<NA>,<NA>,/images/Monash University.jpg
+-32.0063566,115.8923863,Curtin University,"Perth,",<NA>,<NA>,Encampment,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+51.0250121,3.724612,University of Ghent,<NA>,05/06/2024,<NA>,Encampment,<NA>,<NA>,/images/University of Ghent.jpg
+50.8117216,4.3810842,Université libre de Bruxelles,<NA>,05/08/2024,<NA>,Solidarity,<NA>,<NA>,/images/Universit libre de Bruxelles.jpg
+23.3355,46.4345,University of São Paulo,<NA>,05/08/2024,<NA>,Encampment,<NA>,<NA>,/images/University of So Paulo.jpg
+53.5222986,-113.5215354,University of Alberta,"Edmonton,",04/22/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Alberta.jpg
+49.2666656,-123.249999,University of British Columbia ,"Vancouver,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/University of British Columbia.jpg
+48.4651533,-123.3117592,University of Victoria,Greater,<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Victoria.jpg
+49.1575054,-123.9666335,Vancouver Island University,Qualicum,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Vancouver Island University.jpg
+45.4222,-75.6824,University of Ottawa ,"Ottowa,",<NA>,<NA>,Encampment,<NA>,<NA>,/images/University of Ottawa.jpg
+43.0096,-81.2737,Western University,"London,",05/01/2024,Ongoing,Encampment,<NA>,<NA>,/images/Western University.jpg
+43.5481819,-79.6620122,University of Toronto,"Toronto,",05/02/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Toronto.jpg
+45.504784,-73.577148,McGill University,"Montreal,",04/27/2024,Encampment,McGill,<NA>,<NA>,/images/McGill University.jpg
+45.5135497,-73.5615349,University of Quebec,"Montreal,",04/27/2024,Ongoing,McGill,<NA>,<NA>,/images/University of Quebec.jpg
+30.4190997,-97.8374577,Concordia University,"Montreal,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/Concordia University.jpg
+9.9407673,-84.043358,Universidad de Costa Rica,<NA>,05/06/2024,Upcoming,Encampment,<NA>,<NA>,/images/Universidad de Costa Rica.jpg
+23.1368,-82.3815,Havana University ,<NA>,05/06/2024,<NA>,Solidarity,<NA>,<NA>,/images/Havana University.jpg
+30.01473886,31.50087544,American University in Cairo,<NA>,04/22/2024,Ongoing,Solidarity,<NA>,<NA>,/images/American University in Cairo.jpg
+48.85689,2.35085,SciencesPo Paris,<NA>,04/24/2024,Encampment,Encampment,Police,<NA>,/images/SciencesPo Paris.jpg
+48.8483252,2.3428621,Sorbonne University,<NA>,4/29/2024,Encampment,Encampment,Mass,88,/images/Sorbonne University.jpg
+52.53819,13.41262,NYU Berlin,<NA>,04/25/2024,Encampment,Encampment,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+52.5181273,13.3938468,Humboldt University,<NA>,<NA>,<NA>,Encampment,Mass,Unclear,/images/Humboldt University.jpg
+52.4535254,13.2898853,Free University Berlin,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Free University Berlin.jpg
+28.5397336,77.167486,Jawaharlal Nehru University,New,4/28/2024,Dispersed,Solidarity,<NA>,<NA>,/images/Jawaharlal Nehru University.jpg
+40.753521,-73.976631,University College Dublin,<NA>,4/17/2024,Ongoing,Solidarity,<NA>,<NA>,/images/University College Dublin.jpg
+51.8936,-8.4912,University College Cork,<NA>,4/17/2024,"Dispersed,",Solidarity,<NA>,<NA>,/images/University College Cork.jpg
+53.343792,-6.254572,Trinity College Dublin,<NA>,5/3/2024,Encampment,Encampment,<NA>,<NA>,/images/Trinity College Dublin.jpg
+41.9038,12.5144,Sapienza University of Rome,<NA>,04/17/2024,<NA>,Encampment,<NA>,<NA>,/images/Sapienza University of Rome.jpg
+45.0697,7.6891,University of Turin,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/University of Turin.jpg
+35.7117157,139.7637457,University of Tokyo,Bunkyo,04/28/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Tokyo.jpg
+35.0262,135.7808,Kyoto University,<NA>,<NA>,Encampment,Encampment,<NA>,<NA>,/images/Kyoto University.jpg
+35.7087,139.7196,Waseda University,<NA>,<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Waseda University.jpg
+35.612,139.3505,Tama Art University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Tama Art University.jpg
+35.6831,139.7319,Sophia University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Sophia University.jpg
+35.6875,139.5296,International Christian Univeristy,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/International Christian Univeristy.jpg
+34.3991,132.714,Hiroshima University,<NA>,05/04/2024,<NA>,Solidarity,<NA>,<NA>,/images/Hiroshima University.jpg
+32.0125156,35.8741164,University of Jordan,<NA>,4/30/2024,Ongoing,Solidarity,<NA>,<NA>,/images/University of Jordan.jpg
+29.1647957,48.1007087,Kuwait University,<NA>,4/29/2024,Dispersed,Solidarity,<NA>,<NA>,/images/Kuwait University.jpg
+33.8728,35.4969,Beirut Arab University,<NA>,4/30/2024,Ongoing,Solidarity,<NA>,<NA>,/images/Beirut Arab University.jpg
+19.327514,-99.18382,National Autonomous University of Mexico,<NA>,<NA>,Encampment,Encampment,<NA>,<NA>,/images/National Autonomous University of Mexico.jpg
+52.08483,5.12573,Utrecht University,"Utrecht,",<NA>,<NA>,Occuppation,Mass,<NA>,/images/Utrecht University.jpg
+52.226,4.5325,University of Amsterdam,<NA>,05/06/2024,Encampment,Encampment,Mass,100,/images/University of Amsterdam.jpg
+52.3347017,4.864027,Vrije Universiteit,<NA>,05/06/2024,<NA>,Amsterdam,<NA>,<NA>,/images/Vrije Universiteit.jpg
+52.3549952,4.9537003,Amsterdam University College,<NA>,05/06/2024,<NA>,Amsterdam,<NA>,<NA>,/images/Amsterdam University College.jpg
+50.8469617,5.6879808,Maastricht University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Maastricht University.jpg
+51.4479026,5.4861352,Eindhoven University of Technology,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Eindhoven University of Technology.jpg
+51.8234117,5.8613563,Radboud University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Radboud University.jpg
+53.2192808,6.5630865,The University of Groningen,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/The University of Groningen.jpg
+-36.852337,174.769104,University of Auckland,<NA>,05/01/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Auckland.jpg
+-37.5707152,175.147796,Te Wānanga o Aotearoa,<NA>,05/01/2024,Ongoing,Encampment,<NA>,<NA>,/images/Te Wanga o Aotearoa.jpg
+59.9405,10.7215,University of Oslo,<NA>,05/02/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Oslo.jpg
+18.4044093,-66.0485038,University of Puerto Rico Río Piedras,Río,05/05/2024,<NA>,Encampment,<NA>,<NA>,/images/University of Puerto Rico Ro Piedras.jpg
+-33.9582874,18.4599736,University of Cape Town,<NA>,<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Cape Town.jpg
+39.4789,0.3589,University of Valencia,<NA>,04/29/2024,Ongoing,Encampment,<NA>,<NA>,/images/University of Valencia.jpg
+46.519962,6.633597,Lausanne University,<NA>,05/07/2024,<NA>,Solidarity,<NA>,<NA>,/images/Lausanne University.jpg
+36.8112,10.06183,IPSI - Institut de Presse et des,<NA>,4/30/2024,Ongoing,Encampment,<NA>,<NA>,/images/IPSI  Institut de Presse et des.jpg
+41.103625,29.0264583,İstanbul Teknik Üniversitesi,<NA>,04/26/2024,Encampment,Encampment,<NA>,<NA>,/images/stanbul Teknik iversitesi.jpg
+38.025,32.5075,Selçuk University,<NA>,4/30/2024,Encampment,Encampment,<NA>,<NA>,/images/Seluk University.jpg
+41.0126,28.9618,Istanbul University,<NA>,04/25/2024,<NA>,Solidarity,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+39.8898,32.7801,Middle East Techcnical University,<NA>,04/26/2024,<NA>,Solidarity,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+39.9349,32.8339,Ankara University,<NA>,04/24/2024,<NA>,Solidarity,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+51.4569,-2.6084,University of Bristol ,"Bristol,",05/01/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Bristol.jpg
+52.379253,-1.56147,University of Warwick,"Coventry,",04/26/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Warwick.jpg
+54.978,-1.615,Newcastle University ,New,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Newcastle University.jpg
+51.754845,-1.254449,University of Oxford,"Oxford,",05/05/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Oxford.jpg
+53.4055329,-2.9612996,University of Liverpool,"Liverpool,",05/06/2024,<NA>,Encampment,<NA>,<NA>,/images/University of Liverpool.jpg
+53.380639,-1.487614,University of Sheffield ,"Sheffielld,",<NA>,<NA>,Encampment,<NA>,<NA>,/images/University of Sheffield.jpg
+53.80433012,-1.550997796,University of Leeds,"Leeds,",05/01/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Leeds.jpg
+53.46780014,-2.231389999,The University of Manchester,<NA>,05/01/2024,Ongoing,Encampment,<NA>,<NA>,/images/The University of Manchester.jpg
+51.524776,-0.133583,University College London,<NA>,05/02/2024,Ongoing,Encampment,<NA>,<NA>,/images/University College London.jpg
+52.204311,0.113818,Cambridge University,<NA>,05/06/2024,<NA>,Encampment,<NA>,<NA>,/images/Cambridge University.jpg
+51.5224,0.1293,SOAS,<NA>,05/06/2024,<NA>,Encampment,<NA>,<NA>,/images/SOAS.jpg
+33.2114,-87.5401,University of Alabama,"Tuscaloosa,",<NA>,<NA>,Solidarity,<NA>,<NA>,/images/University of Alabama.jpg
+35.18782,-111.6528,Northern Arizona University ,"Flagstaff,",<NA>,Encampment,Encampment,Mass,20,/images/Northern Arizona University.jpg
+33.42424,-111.928055,Arizona State University,"Tempe,",04/26/2024,Encampment,Encampment,Mass,72,/images/Arizona State University.jpg
+32.23201593,-110.9534769,University of Arizona,"Tucson,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Arizona.jpg
+40.8747,-124.0789,Cal Poly Humboldt,"Arcata,",04/23/2024,Encampment,Encampment,Police,35,/images/Cal Poly Humboldt.jpg
+37.8702,-122.2595,"University of California, Berkeley","Berkeley,",04/22/2024,Encampment,Encampment,<NA>,<NA>,/images/University of California Berkeley.jpg
+34.1043154,-117.7050805,"Pomona College, Claremont","Claremont,",04/26/2024,Encampment,Encampment,Prior,19,/images/Pomona College Claremont.jpg
+34.1043154,-117.7050805,"Pitzer College, Claremont","Claremont,",04/26/2024,Encampment,Claremont,<NA>,<NA>,/images/Pitzer College Claremont.jpg
+33.6405,-117.8389,University of California - Irvine,"Irvine,",4/29/2024,Encampment,Encampment,Police,<NA>,/images/University of California  Irvine.jpg
+34.070391,-118.443481,"University of California, Los Angeles",Los,04/25/2024,Encampment,Encampment,non-lethal,100,/images/University of California Los Angeles.jpg
+34.022415,-118.28553,University of Southern California,Los,04/24/2024,Encampment,Encampment,Mass,93,/images/University of Southern California.jpg
+33.9734061,-117.3279833,University of California - Riverside,"Riverside,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/University of California  Riverside.jpg
+38.3390145,-122.6756125,Sonoma State,Rohnert,04/27/2024,Encampment,Encampment,<NA>,<NA>,/images/Sonoma State.jpg
+38.56308,-121.428284,California State University - Sacramento,"Sacramento,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/California State University  Sacramento.jpg
+37.7207,-122.4745,San Francisco State University,San,4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/San Francisco State University.jpg
+34.4138846,-119.845562,University of California - Santa Barbara,Santa,04/24/2024,Dispersed,Solidarity,<NA>,<NA>,/images/University of California  Santa Barbara.jpg
+37.4285923,-122.170887,Stanford University,"Stanford,",04/23/2024,Encampment,Encampment,<NA>,<NA>,/images/Stanford University.jpg
+32.8812,-117.2344,University of California - San Diego,La,05/01/2024,Encampment,Encampment,Mass,30,/images/University of California  San Diego.jpg
+40.807384,-73.963036,California State University - Long Beach,Long,05/01/2024,Ongoing,Encampment,<NA>,<NA>,/images/California State University  Long Beach.jpg
+33.7936038,-117.851581,Chapman University,"Orange,",<NA>,<NA>,Encampment,<NA>,<NA>,/images/Chapman University.jpg
+36.9955779,-122.0588779,University of California - Santa Cruz,Santa,05/01/2024,Encampment,Encampment,<NA>,<NA>,/images/University of California  Santa Cruz.jpg
+39.7414192,-105.0010252,Community College of Denver - Auraria Campus,"Denver,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/Community College of Denver  Auraria Campus.jpg
+39.745187,-105.0020498,Metropolitan State University of Denver - Auraria Campus,"Denver,",04/25/2024,Encampment,Auraria,Mass,40,/images/Metropolitan State University of Denver  Auraria Campus.jpg
+34.1273038,-118.2103103,Occidental College,"Denver,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/Occidental College.jpg
+38.8928261,-104.8002648,Colorado College ,"Denver,",<NA>,Encampment,Auraria,<NA>,<NA>,/images/Colorado College.jpg
+41.809098,-72.249948,The University of Connecticut,"Storrs,",04/25/2024,Encampment,Encampment,Mass,24,/images/The University of Connecticut.jpg
+41.55661,-72.656906,Wesleyan University ,"Middletown,",04/28/2024,Encampment,Encampment,<NA>,<NA>,/images/Wesleyan University.jpg
+41.316307,-72.922585,Yale University,New,04/20/2024,Encampment,Encampment,Mass,48,/images/Yale University.jpg
+29.643946,-82.355659,University of Florida,"Gainesville,",<NA>,Encampment,Encampment,Mass,9,/images/University of Florida.jpg
+30.441269,-84.29132,Florida State University,"Tallahassee,",04/25/2024,Encampment,Encampment,<NA>,<NA>,/images/Florida State University.jpg
+28.05881669,-82.41374662,University of South Florida ,"Tampa,",04/29/2024,Encampment,Encampment,Rubber,3,/images/University of South Florida.jpg
+33.948006,-83.377319,University of Georgia,"Athens,",4/29/2024,Encampment,Encampment,Mass,16,/images/University of Georgia.jpg
+33.7901247,-84.3255514,Emory University,"Atlanta,",04/25/2024,Encampment,Encampment,Mass,28,/images/Emory University.jpg
+33.7527291,-84.3864906,Georgia State University,"Atlanta,",<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Georgia State University.jpg
+43.603672,-116.204613,Boise State University,"Boise,",<NA>,<NA>,Encampment,<NA>,<NA>,/images/Boise State University.jpg
+40.101025,-88.226341,University of Illionois Urbana-Champaign,"Champaign-Urbana,",04/26/2024,Encampment,Encampment,Felony,2,/images/University of Illionois UrbanaChampaign.jpg
+41.925621,-87.654808,DePaul University,"Chicago,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/DePaul University.jpg
+41.789722,-87.599724,University of Chicago,"Chicago,",<NA>,Encampment,Encampment,Police,<NA>,/images/University of Chicago.jpg
+42.0565,-87.6742,Northwestern University,"Evanston,",04/25/2024,Encampment,Encampment,Police,<NA>,/images/Northwestern University.jpg
+41.8810534,-87.6266529,School of the Art Institute of Chicago ,"Chicago,",05/05/2024,Encampment,Encampment,Mass,50,/images/School of the Art Institute of Chicago.jpg
+39.166182,-86.519094,Indiana University Bloomington,"Bloomington,",04/26/2024,Encampment,Encampment,Mass,33,/images/Indiana University Bloomington.jpg
+39.7096396,-86.1341256,Indiana University Indianapolis,"Indianapolis,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/Indiana University Indianapolis.jpg
+41.7030131,-86.2389851,University of Notre Dame,Notre,4/25/2024,Dispersed,Solidarity,<NA>,<NA>,/images/University of Notre Dame.jpg
+40.423538,-86.921738,Purdue University,West,04/25/2024,Encampment,Encampment,<NA>,<NA>,/images/Purdue University.jpg
+38.95216286,-95.25599898,University of Kansas,"Lawrence,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Kansas.jpg
+30.4133,-91.18,Louisiana State University,Baton,04/25/2024,Ongoing,Solidarity,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+30.0273,-90.068,University of New Orleans,New,04/29/2024,Ongoing,Solidarity,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+29.9340085,-90.1213712,Loyola University,New,<NA>,Ongoing,Tulane,<NA>,<NA>,/images/Loyola University.jpg
+29.9412195,-90.1201009,Tulane University ,New,04/29/2024,Encampment,Encampment,Mass,12,/images/Tulane University.jpg
+38.9869,-76.9426,University of Maryland,College,04/22/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Maryland.jpg
+42.3869693,-72.53018467,University of Massachusetts Amherst,"Amherst,",<NA>,Encampment,Encampment,Mass,130,/images/University of Massachusetts Amherst.jpg
+42.34669,-71.088705,Berklee College of Music,"Boston,",04/25/2024,Ongoing,NE,<NA>,<NA>,/images/Berklee College of Music.jpg
+42.3522,-71.0658,Emerson College,"Boston,",04/22/2024,Encampment,Encampment,Mass,108,/images/Emerson College.jpg
+42.3398247,-71.0880961,Northeastern University,"Boston,",04/25/2024,Encampment,Encampment,Mass,102,/images/Northeastern University.jpg
+42.3744,-71.1182,Harvard University,"Cambridge,",04/24/2024,Encampment,Encampment,<NA>,<NA>,/images/Harvard University.jpg
+42.3601,-71.0942,Massachusetts Institute of Technology (MIT),"Cambridge,",04/20/2024,Encampment,Encampment,<NA>,<NA>,/images/Massachusetts Institute of Technology MIT.jpg
+42.4085,-71.1183,Tufts University,"Medford,",04/22/2024,Encampment,Encampment,<NA>,<NA>,/images/Tufts University.jpg
+42.31782,-72.636,Smith College,"Northampton,",11/13/2023,Dispersed,Solidarity,<NA>,<NA>,/images/Smith College.jpg
+42.2771,-83.7382,University of Michigan,Ann,04/24/2024,Encampment,Encampment,Police,Unclear,/images/University of Michigan.jpg
+42.3593449,-83.06653548,Wayne State University,"Detroit,",04/26/2024,Ongoing,Solidarity,Arrests,1,/images/Wayne State University.jpg
+42.7023794,-84.4803869,Michigan State University ,East,04/29/2024,<NA>,Encampment,<NA>,<NA>,/images/Michigan State University.jpg
+44.9657582,-93.1653392,Hamline University,"St.Paul,",04/28/2024,Encampment,Encampment,<NA>,<NA>,/images/Hamline University.jpg
+44.974,-93.2277,University of Minnesota,Twin,04/23/0204,Encampment,Encampment,Mass,9,/images/University of Minnesota.jpg
+34.3654288,-89.5360744,"University of Mississippi, Ole Miss","Oxford,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Mississippi Ole Miss.jpg
+38.6490994,-90.3125095,Washington University,St.,04/20/2024,Encampment,Encampment,Mass,112,/images/Washington University.jpg
+46.8619,-113.9846,University of Montana,"Missoula,",<NA>,<NA>,Solidarity,<NA>,<NA>,/images/University of Montana.jpg
+43.1356,-70.9333,University of New Hampshire,"Durham,",05/01/2024,Ongoing,Encampment,Mass,12,/images/University of New Hampshire.jpg
+43.70454,-72.288986,Dartmouth College,"Hanover,",05/01/2024,Ongoing,Encampment,Mass,90,/images/Dartmouth College.jpg
+40.740687,-74.174889,Rutgers University ,New,04/29/2024,Encampment,Encampment,<NA>,<NA>,/images/Rutgers University.jpg
+40.34399,-74.651451,Princeton University,Princeton,04/25/2024,Encampment,Encampment,Mass,15,/images/Princeton University.jpg
+35.0843,-106.6198,University of New Mexico,"Albuquerque,",04/22/2024,Encampment,Encampment,Mass,16,/images/University of New Mexico.jpg
+42.6935,-73.78988,University of Albany,"Albany,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Albany.jpg
+42.453449,-76.473503,Cornell University,"Ithaca,",04/25/2024,Encampment,Encampment,<NA>,<NA>,/images/Cornell University.jpg
+40.82,-73.9493,CUNY (CCNY Campus),New,04/25/2024,Encampment,Encampment,Mass,174,/images/CUNY CCNY Campus.jpg
+40.74748,-73.99508,Fashion Institute of Technology,New,04/25/2024,Encampment,Encampment,Mass,20,/images/Fashion Institute of Technology.jpg
+40.7351,-73.9945,Parsons The New School for Design,New,4/29/2024,Encampment,New,<NA>,<NA>,/images/Parsons The New School for Design.jpg
+40.866989,-73.902077,Fordham University,New,04/25/2024,Encampment,Encampment,Mass,15,/images/Fordham University.jpg
+43.1306,-77.626,University of Rochester,"Rochester,",04/23/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Rochester.jpg
+40.915509,-73.1216,Stony Brook University,Stony,4/30/2024,Encampment,Encampment,Mass,23,/images/Stony Brook University.jpg
+43.0367954,-76.1290034,Syracuse University,"Syracuse,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/Syracuse University.jpg
+43.03472,-76.13638,SUNY ESF,"Syracuse,",<NA>,Encampment,Syracuse,<NA>,<NA>,/images/SUNY ESF.jpg
+43.0018,-78.7895,SUNY Buffalo,"Buffalo,",05/01/2024,Ongoing,Encampment,<NA>,<NA>,/images/SUNY Buffalo.jpg
+41.7409828,-74.0834319,SUNY New Paltz,New,05/03/2024,Encampment,Encampment,Mass,133,/images/SUNY New Paltz.jpg
+40.7387319,-73.9823259,School of Visual Arts,New,<NA>,<NA>,Solidarity,<NA>,<NA>,/images/School of Visual Arts.jpg
+41.0466173,-73.7004411,SUNY Purchase,"Purchase,",<NA>,<NA>,Encampment,Mass,70,/images/SUNY Purchase.jpg
+40.807384,-73.963036,Barnard College,New,04/17/2024,Encampment,Columbia,Mass,<NA>,/images/Barnard College.jpg
+40.807384,-73.963036,Columbia University,New,04/17/2024,Encampment,Encampment,Mass,227,/images/Columbia University.jpg
+40.729675,-73.996925,New York University (NYU),New,04/22/2024,Encampment,Encampment,Mass,120,/images/New York University NYU.jpg
+40.73467706,-73.99150937,The New School,New,04/21/2024,Encampment,Encampment,mass,43,/images/The New School.jpg
+41.687327,-73.8971473,Vasser College,"Poughkeepsie,",4/30,Encampment,Encampment,<NA>,<NA>,/images/Vasser College.jpg
+35.9049,-79.0469,"University of North Carolina, Chapel Hill",Chapel,04/19/2024,Encampment,Encampment,Mass,30,/images/University of North Carolina Chapel Hill.jpg
+35.3074,-80.7352,"University of North Carolina, Charlotte","Charlotte,",04/22/2024,Encampment,Encampment,<NA>,<NA>,/images/University of North Carolina Charlotte.jpg
+36.038311,-79.034531,North Carolina State,"Raleigh,",04/27/2024,Ongoing,Triangle,Police,<NA>,/images/North Carolina State.jpg
+36.1334383,-80.2772874,Wake Forest University,"Winston-Salem,",05/03/2024,<NA>,Encampment,<NA>,<NA>,/images/Wake Forest University.jpg
+35.616942,-82.5653565,UNC Ashville,"Ashville,",<NA>,<NA>,Solidarity,<NA>,<NA>,/images/UNC Ashville.jpg
+36.001427,-78.938232,Duke University,"Durham,",04/27/2024,Ongoing,Triangle,Police,<NA>,/images/Duke University.jpg
+41.5043,-81.6084,Case Western Reserve University,"Cleveland,",4/29/2024,Encampment,Encampment,Mass,<NA>,/images/Case Western Reserve University.jpg
+39.99963401,-83.0127008,Ohio State University ,"Columbus,",04/25/2024,Encampment,Encampment,Mass,36,https://drive.google.com/thumbnail?id=view?usp=drive_link&sz=w320
+41.293347,-82.2212683,Oberlin College,"Oberlin,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/Oberlin College.jpg
+39.510532,-84.730881,Miami University,"Oxford,",04/25/2024,Dispersed,Solidarity,<NA>,<NA>,/images/Miami University.jpg
+44.04483,-123.072601,University of Oregon,"Eugene,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Oregon.jpg
+45.511923,-122.681913,Portland State University ,"Portland,",4/26/2024,Encampment,Encampment,<NA>,<NA>,/images/Portland State University.jpg
+45.481071,-122.6303447,Reed College ,"Portland,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/Reed College.jpg
+45.450891,-122.670117,Lewis and Clark College,"Portland,",<NA>,<NA>,Encampment,<NA>,<NA>,/images/Lewis and Clark College.jpg
+40.2032064,-77.2019684,Dickinson College,"Carlisle,",<NA>,Encampment,Upenn,<NA>,<NA>,/images/Dickinson College.jpg
+40.0079856,-75.3062819,Haverford College,Haverford,04/25/2024,Encampment,Encampment,<NA>,<NA>,/images/Haverford College.jpg
+40.02739,-75.315544,Bryn Mawr College,Lower,4/27/24,Encampment,Encampment,<NA>,<NA>,/images/Bryn Mawr College.jpg
+39.9569305,-75.18992655,Drexel University,"Philadelphia,",04/25/2024,Dispersed,Upenn,<NA>,<NA>,/images/Drexel University.jpg
+39.981188,-75.15628281,Temple University,"Philadelphia,",04/25/2024,Dispersed,Upenn,<NA>,<NA>,/images/Temple University.jpg
+39.9532284,-75.193971,University of Pennsylvania,"Philadelphia,",04/25/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Pennsylvania.jpg
+40.444,-79.9605,University of Pittsburgh,"Pittsburgh,",04/23/2024,Encampment,Encampment,Arrests,2,/images/University of Pittsburgh.jpg
+39.9038,-75.3527,Swarthmore College,"Swarthmore,",04/23/2024,Encampment,Encampment,<NA>,<NA>,/images/Swarthmore College.jpg
+41.8268,-71.4025,Brown University,"Providence,",04/24/2024,Encampment,Encampment,Prior,<NA>,/images/Brown University.jpg
+41.8270711,-71.4092687,Rhode Island School of Design,"Providence,",<NA>,<NA>,Occupation,<NA>,<NA>,/images/Rhode Island School of Design.jpg
+33.9916438,-81.0320931,University of South Carolina,"Columbia,",<NA>,Encampment,Encampment,Arrests,2,/images/University of South Carolina.jpg
+36.1447,-86.8027,Vanderbilt University,"Nashville,",03/26/2024,Encampment,Encampment,<NA>,<NA>,/images/Vanderbilt University.jpg
+35.2041025,-85.9187615,Sewanee: The University of the South,"Sewanee,",<NA>,Encampment,Encampment,Arrersts,5,/images/Sewanee The University of the South.jpg
+32.7314979,-97.1109438,UT Arlington,"Arlington,",04/24/2024,Ongoing,Solidarity,<NA>,<NA>,/images/UT Arlington.jpg
+30.285,-97.7335,"University of Texas, Austin","Austin,",04/24/2024,Encampment,Encampment,2,136,/images/University of Texas Austin.jpg
+32.9861949,-96.7504227,UT Dallas,"Dallas,",04/23/2024,Dispersed,Solidarity,Mass,Unkown,/images/UT Dallas.jpg
+29.7174,-95.4018,Rice University,"Houston,",04/23/2024,Encampment,Encampment,<NA>,<NA>,/images/Rice University.jpg
+29.7203711,-95.343647,University of Houston,"Houston,",05/08/2024,<NA>,Encampment,<NA>,<NA>,/images/University of Houston.jpg
+40.7649,-111.8421,University of Utah,Salt,04/29/2024,Encampment,Encampment,Mass,19,/images/University of Utah.jpg
+44.4779,-73.1936,University of Vermont,"Burlington,",04/28/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Vermont.jpg
+44.0081,-73.176,Middlebury College,"Middlebury,",04/28/2024,Encampment,Encampment,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+37.225,-80.425,Virginia Tech,"Blacksburg,",04/26/2024,Encampment,Encampment,Mass,82,/images/Virginia Tech.jpg
+37.54974,-77.453323,Virginia Commonwealth University,"Richmond,",4/29/2024,Encampment,Encampment,Mass,13,/images/Virginia Commonwealth University.jpg
+38.03372188,-78.5079772,University of Virginia,"Charlottesville,",04/30/2024,Dispersed,Encampment,"Arrests,",25,/images/University of Virginia.jpg
+38.3044865,-77.4758434,University of Mary Washington,"Fredericksburg,",04/26/2024,Encampment,Encampment,Mass,12,https://drive.google.com/thumbnail?id=https:&sz=w320
+47.655548,-122.3032,University of Washington,"Seattle,",04/29/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Washington.jpg
+47.070808,-122.975708,Evergreen State College,"Olympia,",<NA>,Divested,Encampment,<NA>,<NA>,/images/Evergreen State College.jpg
+47.6094687,-122.3188698,Seattle University,"Seattle,",<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Seattle University.jpg
+38.8997,-77.0471,George Washington University,"Washington,",04/25/2024,Encampment,Encampment,Mass,30,/images/George Washington University.jpg
+38.831493,-77.311485,George Mason University,Fairfax,<NA>,Encampment,DC,<NA>,<NA>,/images/George Mason University.jpg
+38.93804505,-77.08939224,American University,Washington,04/26/2024,Dispersed,DC,<NA>,<NA>,/images/American University.jpg
+38.9083288,-76.99168565,Gallaudet University,Washington,04/26/2024,Dispersed,DC,<NA>,<NA>,/images/Gallaudet University.jpg
+38.907608,-77.072258,Georgetown,Washington,04/26/2024,Ongoing,DC,<NA>,<NA>,/images/Georgetown.jpg
+38.922684,-77.01944,Howard University,Washington,04/26/2024,Ongoing,DC,<NA>,<NA>,/images/Howard University.jpg
+39.32864,-76.62304,Johns Hopkins University,Washington,04/29/2024,Encampment,Encampment,<NA>,<NA>,/images/Johns Hopkins University.jpg
+39.2916144,-76.6250253,University of Maryland - Baltimore,Washington,<NA>,Ongoing,DC,<NA>,<NA>,/images/University of Maryland  Baltimore.jpg
+43.075,-89.4172,University of Wisconsin Madison,"Madison,",4/29/2024,Encampment,Encampment,<NA>,<NA>,/images/University of Wisconsin Madison.jpg
+43.077639,-87.88194245,University of Wisconsin Milwaukee,"Milwaukee,",<NA>,Encampment,Encampment,<NA>,<NA>,/images/University of Wisconsin Milwaukee.jpg
+14.579,44.3754,Thamar University,<NA>,<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Thamar University.jpg
+45.3995538,11.8800149,University of Padua,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/University of Padua.jpg
+35.180101,-111.657693,North Arizona University,<NA>,<NA>,<NA>,Solidarity,mass,24,/images/North Arizona University.jpg
+51.474781,-0.0358987,"Goldsmiths, University of London",<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/Goldsmiths University of London.jpg
+54.9782448,-1.6071206,Northumbria University,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/Northumbria University.jpg
+52.130452,-106.6325605,University of Saskatchewan,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/University of Saskatchewan.jpg
+50.6712039,-120.3630137,Thompson River University,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/Thompson River University.jpg
+49.8075029,-97.13663,University of Manitoba,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/University of Manitoba.jpg
+55.9475508,-3.1865823,Edinburgh University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Edinburgh University.jpg
+41.3824466,2.1141413,University of Barcelona ,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/University of Barcelona.jpg
+23.7316952,90.3959735,University of Dhaka,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/University of Dhaka.jpg
+43.261925,-79.917984,McMaster University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/McMaster University.jpg
+55.679029,12.571526,Copenhagen University,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,/images/Copenhagen University.jpg
+50.7336622,7.1022457,University of Bonn,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/University of Bonn.jpg
+40.84424,14.2578506,University of Naples,<NA>,<NA>,<NA>,Encampment,<NA>,<NA>,https://drive.google.com/thumbnail?id=https:&sz=w320
+46.1948526,6.1399635,University of Geneva,<NA>,<NA>,<NA>,Occupation,<NA>,<NA>,/images/University of Geneva.jpg
+46.5223353,6.5796902,Univeristy of Lausanne,<NA>,<NA>,<NA>,Occupation,<NA>,<NA>,/images/Univeristy of Lausanne.jpg
+47.3763672,8.5475382,Ecole Polytechique de Zurich ,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/Ecole Polytechique de Zurich.jpg
+37.9415407,23.6530656,Piraeus University,<NA>,<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Piraeus University.jpg
+40.6294896,22.9616728,Aristotle University,<NA>,<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Aristotle University.jpg
+37.9596291,23.7170648,Panteion University,<NA>,<NA>,<NA>,Solidarity,<NA>,<NA>,/images/Panteion University.jpg
+46.049095,14.5040857,University of Ljubljana,<NA>,<NA>,<NA>,<NA>,<NA>,<NA>,/images/University of Ljubljana.jpg
