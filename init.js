@@ -82,8 +82,9 @@ function zoomToMarker(id) {
 fetchData();
 const MAPTILER_KEY = 'z37jJYOIqWw3eBn8jUWN';
 const map = new maplibregl.Map({
-    style: `https://api.maptiler.com/maps/basic-v2/style.json?key=${MAPTILER_KEY}`,
-    center: [-118.25133692966446, 34.00095151499077],
+	style: `https://api.maptiler.com/maps/positron/style.json?key=${MAPTILER_KEY}`,
+
+	center: [-118.25133692966446, 34.00095151499077],
     zoom: 2,
     pitch: 10,
     bearing: 0,
@@ -162,6 +163,9 @@ map.on('load', () => {
     );
 });
 
+
+// Listen for the zoom event on the map
+
 // Get the current hour
 const currentHour = new Date().getHours();
 
@@ -215,9 +219,10 @@ function addMarker(item) {
     // Create a custom marker element
     const markerElement = document.createElement('div');
     markerElement.className = 'marker';
+	markerElement.style.fontSize = '30px';  // adjust size as needed
 	markerElement.textContent = item.category === 'Encampment' ? '🏕️' : '🇵🇸';
 
-    const marker = new maplibregl.Marker(markerElement)
+	const marker = new maplibregl.Marker(markerElement)
         .setLngLat(item.location_geometry.coordinates)
         .setPopup(popup)
         .addTo(map);
