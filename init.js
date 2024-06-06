@@ -58,10 +58,18 @@ function updatePanel(item, removeId = null) {
     // Add the new row to the table
     table.appendChild(tr);
 
-    // Add event listener to the Zoom to Marker button
-    tr.querySelector('.zoom-marker').addEventListener('click', function() {
-        zoomToMarker(item.id);
-    });
+	// Add event listener to the table for Zoom to Marker button
+	table.addEventListener('click', function(event) {
+		let target = event.target;
+		// Check if the clicked element or its parent is a zoom button
+		while (target != this) {
+			if (target.className == 'zoom-marker' || target.parentNode.className == 'zoom-marker') {
+				zoomToMarker(item.id);
+				return;
+			}
+			target = target.parentNode;
+		}
+	});
 }
 
 function zoomToMarker(id) {
@@ -202,8 +210,7 @@ function addMarker(item) {
 		${item.police_violence_status && item.police_violence_status !== '<NA>' ? `<p>Police Violence Status: ${item.police_violence_status}</p>` : ''}
 		${item.number_of_arrests && item.number_of_arrests !== '<NA>' ? `<p>Number of Arrests: ${item.number_of_arrests}</p>` : ''}
 		<img src="${item.image_url !== '<NA>' ? item.image_url : '/images/default.png'}" onerror="this.onerror=null; this.src='/images/default.png';" />
-		<button class="edit-marker" data-id="${item.id}">Edit</button>
-		<button class="delete-marker" data-id="${item.id}">Delete</button>
+
 	`;
 
     popupElement.querySelector('.edit-marker').addEventListener('click', (event) => {
