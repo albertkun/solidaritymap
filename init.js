@@ -18,58 +18,62 @@ async function fetchData() {
 }
 
 function updatePanel(item, removeId = null) {
-	// Get the 'View' tab
-	let viewTab = document.getElementById('View');
+    // Get the 'View' tab
+    let viewTab = document.getElementById('View');
 
-	// Create a new table if it doesn't exist
-	let table = viewTab.querySelector('table');
-	if (!table) {
-		table = document.createElement('table');
-		viewTab.appendChild(table);
+    // Create a new table if it doesn't exist
+    let table = viewTab.querySelector('table');
+    if (!table) {
+        table = document.createElement('table');
+        viewTab.appendChild(table);
 
-		if (removeId) {
-			// Remove the row for the marker with removeId
-			let row = table.querySelector(`tr[data-id="${removeId}"]`);
-			if (row) row.remove();
-		} else {
-		// Add table headers
-		let thead = document.createElement('thead');
-		thead.innerHTML = `
-			<tr>
-				<th>Name</th>
-				<th>Description</th>
-				<th>Zoom</th>
-			</tr>
-		`;
-		table.appendChild(thead);
-		}
-	}
+        if (removeId) {
+            // Remove the row for the marker with removeId
+            let row = table.querySelector(`tr[data-id="${removeId}"]`);
+            if (row) row.remove();
+        } else {
+            // Add table headers
+            let thead = document.createElement('thead');
+            thead.innerHTML = `
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Zoom</th>
+                </tr>
+            `;
+            table.appendChild(thead);
+        }
+    }
 
-	// Create a new row for this item
-	let tr = document.createElement('tr');
+    // Create a new row for this item
+    let tr = document.createElement('tr');
 
-	// Create a structured HTML layout for the item
+    // Create a structured HTML layout for the item
     tr.innerHTML = `
         <td>${item.name || ''}</td>
         <td>${item.description || ''}</td>
+        <td>${item.lat || ''}</td>
+        <td>${item.lng || ''}</td>
         <td><button class="zoom-marker"><i class="fas fa-search-plus"></i></button></td>
     `;
 
     // Add the new row to the table
     table.appendChild(tr);
 
-	// Add event listener to the table for Zoom to Marker button
-	table.addEventListener('click', function(event) {
-		let target = event.target;
-		// Check if the clicked element or its parent is a zoom button
-		while (target != this) {
-			if (target.className == 'zoom-marker' || target.parentNode.className == 'zoom-marker') {
-				zoomToMarker(item.id);
-				return;
-			}
-			target = target.parentNode;
-		}
-	});
+    // Add event listener to the table for Zoom to Marker button
+    table.addEventListener('click', function(event) {
+        let target = event.target;
+        // Check if the clicked element or its parent is a zoom button
+        while (target != this) {
+            if (target.className == 'zoom-marker' || target.parentNode.className == 'zoom-marker') {
+                zoomToMarker(item.id);
+                return;
+            }
+            target = target.parentNode;
+        }
+    });
 }
 
 function zoomToMarker(id) {
@@ -213,13 +217,6 @@ function addMarker(item) {
 
 	`;
 
-    popupElement.querySelector('.edit-marker').addEventListener('click', (event) => {
-        editMarker(event.target.dataset.id);
-    });
-
-    popupElement.querySelector('.delete-marker').addEventListener('click', (event) => {
-        deleteMarker(event.target.dataset.id);
-    });
 
     const popup = new maplibregl.Popup({ offset: 25 }).setDOMContent(popupElement);
 
@@ -238,17 +235,7 @@ function addMarker(item) {
     updatePanel(item);
 }
 
-async function deleteMarker(id) {
-    const { error } = await supabase
-        .from('test')
-        .delete()
-        .eq('id', id);
-	updatePanel(null, id);
-    if (error) {
-        console.error('Error deleting data: ', error);
-    }
-	
-}
+
 function subscribeToTableChanges() {
 	const subscription = supabase
 		.channel('custom-all-channel')
@@ -286,28 +273,7 @@ function subscribeToTableChanges() {
 		.subscribe();
 }
 
-function editMarker(id) {
-	// Get the data for the marker
-	const marker = markers[id];
-	const coordinates = marker.getLngLat();
 
-	// Find the form fields for name, details, longitude, and latitude
-	const nameField = document.querySelector('#name');
-	const detailsField = document.querySelector('#details');
-	const longitudeField = document.querySelector('#longitude');
-	const latitudeField = document.querySelector('#latitude');
-
-	// Set the value of the form fields to the marker's data
-	const popupContent = marker.getPopup().getElement();
-	nameField.value = popupContent.querySelector('h3').textContent;
-	detailsField.value = popupContent.querySelector('p').textContent;
-	longitudeField.value = coordinates.lng;
-	latitudeField.value = coordinates.lat;
-
-	// Set a data attribute on the form to the id of the marker being edited
-	const form = document.querySelector('#add-place');
-	form.dataset.editing = id;
-}
 document.addEventListener('DOMContentLoaded', (event) => {
 	// Add geolocate control to the map
 
@@ -317,81 +283,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
             openTab(event, this.textContent);
         });
     }
-
-	const geolocate = new maplibregl.GeolocateControl({
-		positionOptions: {
-			enableHighAccuracy: true
-		},
-		trackUserLocation: true
-	});
-	map.addControl(geolocate, 'top-right');
-	// Select the form
-    const form = document.querySelector('#add-place');
-
-    // Select the geolocate button
-    const geolocateButton = document.querySelector('#geolocate');
-
-    // Add an event listener for the geolocate button click
-    geolocateButton.addEventListener('click', (event) => {
-        // Check if the Geolocation API is available
-        if (!navigator.geolocation) {
-            console.error('Geolocation is not supported by your browser');
-            return;
-        }
-
-        // Get the user's current position
-        navigator.geolocation.getCurrentPosition((position) => {
-            // Update the longitude and latitude fields in the form
-            form.querySelector('#longitude').value = position.coords.longitude;
-            form.querySelector('#latitude').value = position.coords.latitude;
-        }, () => {
-            console.error('Unable to retrieve your location');
-        });
-    });
-	// Add an event listener for the form submission
-	form.addEventListener('submit', async (event) => {
-		// Prevent the form from causing a page reload
-		event.preventDefault();
-
-		// Get the form data
-		const formData = new FormData(form);
-		const name = formData.get('name');
-		const details = formData.get('details');
-		const longitude = parseFloat(formData.get('longitude'));
-		const latitude = parseFloat(formData.get('latitude'));
-
-		// Check if we're editing an existing marker or creating a new one
-		if (form.dataset.editing) {
-			// We're editing an existing marker
-			const id = form.dataset.editing;
-
-			// Update the marker in the 'test' table
-			const { error } = await supabase
-				.from('test')
-				.update({ name: name, details: details, location: { type: 'Point', coordinates: [longitude, latitude] } })
-				.eq('id', id);
-
-			if (error) {
-				console.error('Error updating data: ', error);
-			} else {
-				console.log('Data updated successfully!');
-			}
-
-			// Clear the form's editing state
-			delete form.dataset.editing;
-		} else {
-			// We're creating a new marker
-			const { error } = await supabase
-				.from('test')
-				.insert([
-					{ name: name, details: details, location: { type: 'Point', coordinates: [longitude, latitude] } },
-				]);
-
-			if (error) {
-				console.error('Error inserting data: ', error);
-			} else {
-				console.log('Data inserted successfully!');
-			}
-		}
-	});
 });
